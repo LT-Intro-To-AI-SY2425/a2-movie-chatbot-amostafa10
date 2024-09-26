@@ -13,8 +13,8 @@ This assignment is about learning and applying the while loop and iterating thro
 ## Reflection Questions
 1. What was difficult for you while completing the match function?
 
-
+Understanding the pattern that the function was looking to complete was difficult. Also, conceptualizing the algorithm to solve the problem.
 
 2. Explain how you could use the match function for extracting information from a movie database.
 
-
+You can take in natural language and use the match function to find concrete instructions for your chatbot to perform. Such as querying a database or something.
