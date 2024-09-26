@@ -23,13 +23,13 @@ local function match(pattern, source)
   local output = setmetatable({}, mt)
 
   for patternIndex, patternString in ipairs(pattern) do
-    local percentMatchResult = ""
-    local percentMatchLength = 0
-    local nextPatternString = pattern[patternIndex + 1]
-
     if #source == 0 then
       return nil
     end
+
+    local percentMatchResult = ""
+    local percentMatchLength = 0
+    local nextPatternString = pattern[patternIndex + 1]
 
     for sourceIndex, sourceString in ipairs(source) do
       if patternString == "%" then
